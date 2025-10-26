@@ -15,8 +15,8 @@
         }
         .container{
             display: flex;
-            flex-direction: column;
-            height: 100vh;
+            flex-direction: row;
+            height: 50vh;
 
         }
         .box{
@@ -57,11 +57,7 @@
 <!--
     Porquê a exibição fica assim?
 
-    Começando pela div container, ela foi responsável por deixar suas divs filhas alinhadas uma em baixo da outra e com o uso de height 100vh, deixar elas ocupando todo o espaço da tela.
+    Aqui nessa questão, reduzimos o tamanho das boxes em 50%, e também a altura do container.
 
-    Além do height 100vh, dentro da box também é necessário colocar height e width em 100%, se não as boxes não irão completar toda a tela
-
-    O texto foi alinhado no centro de cada box, utilizando justify-content e align-items.
-
-    Importante reparar também que a página não permite usar o scroll do mouse para ir para baixo ou para cima, isso é devido aos comandos overflow-x e y.
+    Alterando também o flex-direction para row.
 -->
